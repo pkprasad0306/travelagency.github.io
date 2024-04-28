@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    border:border-box;
+}
+
+body{
+    background-color: #EEEEEE;
+}
+
+header{
+    height: 50px;
+    width: 100%;
+    background-color:#222831;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 700px;
+}
+.about ul li{
+      padding: 10px 12px;
+}
+
+.about ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+
+
+
+.logo{
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 15px;
+}
+
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-weight:  bold;
+}
+
+/** Contents **/
+.content{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #EEEEEE;
+    /**border: 2px solid black;**/
+    image-resolution:  high;
+    background-image: url("pexels-creative-vix-9754.jpg");
+    background-size: 100%;
+    background-position: 100%;
+    opacity: 80%;
+}
+.img-text{
+   padding: 150px 15px;
+
+}
+
+.img-text  h1 {
+    font-size: 60px;
+    color: white;
+}
+.img-text p{
+    font-weight: 300;
+    color: white;
+}
+
+.travelhere{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #EEEEEE;
+    padding: 12px;
+}
+.destiny{
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+/** box1 **/
+.box{
+    margin-top: 0px;
+    border-radius: 10px;
+   /** border: 1px solid black ;**/
+    background-color: #DDDDDD;
+    height: 350px;
+    width: 23%;
+    padding: 15px 10px;
+}
+.box-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-size: cover;
+    /**background-position: 100%;**/
+    height: 300px;
+    width: 100%;
+
+}
+.box-content{
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.box-content h2{
+    margin-bottom: 5px;
+}
+.box-content p {
+    margin-top: 10px;
+    color:#007185 ;        
+}
+.box-content p a{
+    text-decoration: none;
+}
+
+/** footer **/
+.footer{
+ background-color: #111;
+}
